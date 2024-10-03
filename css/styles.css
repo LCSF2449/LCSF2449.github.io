@@ -1,36 +1,34 @@
 /*
-Author: Ryan Maitland
-Date: Oct. 3, 2024
-File Name: styles.css
+Name: Ryan Maitland
+Student #: C0750514
+Term Project
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, h2, div, img {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* Style rule for images */
+body {
+    background-color: #ffffff;
+}
+
 img {
     max-width: 100%;
     display: block;
 }
-
-/* Style rules for header content */
 header {
-    text-align: center;
-    font-size: 3em;
-    color: #373684;
+    width: 100%;
+    float: left;
 }
 
-header h1 {
-    font-style: italic;
-}
-
-/* Style rules for navigation area */
 nav {
-    background-color: #373684;
+    width: 100%;
+    float: none;
+    margin: 5em 3em 0 0;
+    background-color: rgb(206, 206, 206);
 }
 
 nav ul {
@@ -41,69 +39,34 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 nav li a {
     display: block;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
 
-/* Style rules for main content */
-main {
-    padding: 2%;
-    background-color: #e5e9fc;
-    overflow: auto;
-    font-family: Verdana, Arial, sans-serif;   
-}
-
-main p {
-    font-size: 1.25em;
-}
-
-.action {
-    font-size: 1.75em;
-color: #373684;
-font-weight: bold;
-}
-
-#piano, #guitar, #violin {
-    width: 29%;
-    float: left;
-    margin: 0 2%;
-}
-
-#info {
-    clear: left;
-    background-color: #c0caf7;
-    padding: 1% 2%;
-}
-
-#contact {
+#welcome {
+    padding-top: 1%;
     text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
 }
 
-#contact a {
-    color: #4645a8;
-    text-decoration: none;
-    font-weight: bold;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
 }
 
-.map {
-    border: 5px solid #373684;
-}
-
-/* Style rules for footer content */
 footer {
     text-align: center;
-    font-size: 0.65em;
-    clear: left;
-}
-
-footer a {
-    color: #4645a8;
-    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
 }
