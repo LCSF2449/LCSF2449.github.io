@@ -6,35 +6,30 @@ Term Project
 
 /* CSS Reset */
 body, header, nav, main, footer, h2, div, img {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
 
 body {
-    background-color: #ffffff;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-header {
-    width: 100%;
-    float: left;
+    background-color: #fff;
 }
 
 nav {
     width: 100%;
     float: none;
-    margin: 5em 3em 0 0;
-    background-color: rgb(206, 206, 206);
+    background-color: #fff;
+    border: none;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    display: inline-block;
+    text-shadow: 0px 0px 5px #66CCFF;
 }
 
 nav li {
@@ -46,35 +41,42 @@ nav li {
 
 nav li a {
     display: block;
-    color: #000000;
+    color: #000;
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
 
-#welcome {
-    padding-top: 1%;
-    text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-}
-
-#welcome h2 {
-    text-align: center;
-}
-
-#welcome p {
-    text-align: center;
-}
-
-#welcome .center {
+main {
     display: block;
+    border-radius: 0%;
+    text-shadow: 0px 0px 5px #66CCFF;
+}
+
+#container {
     margin-left: auto;
     margin-right: auto;
-    width: 23%;
+    text-align: center;
+    max-width: 100%;
+}
+
+#welcome {
+    padding-top: 0.5%;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 footer {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
+}
+
+.logo {
+    float: left;
+    max-width: 8%;
+}
+
+.smile {
+    max-width: 20%;
 }
