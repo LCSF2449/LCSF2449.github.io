@@ -5,7 +5,7 @@ Term Project
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h2, div, img {
+body, header, nav, main, footer, h2, div, img, table, tr, th, td {
     margin: 0%;
     padding: 0%;
     border: 0%;
@@ -56,7 +56,7 @@ nav li a {
 main {
     display: block;
     border-radius: 0%;
-    text-shadow: 0px 0px 5px #66CCFF;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 #container {
@@ -64,13 +64,6 @@ main {
     margin-right: auto;
     text-align: center;
     max-width: 99%;
-}
-
-#welcome {
-    padding-top: 0.5%;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    text-align: center;
 }
 
 footer {
@@ -84,29 +77,50 @@ footer {
     max-width: 8%;
 }
 
-.smile {
-    max-width: 20%;
-    max-height: 245px;
-}
-
-.special {
-    text-align: left;
-    font-family: Verdana, Tahoma, sans-serif;
-    padding-left: 2em;
-    font-size: 1em;
-    margin-top: 2%;
-}
-
-.IO {
-    float: left;
-    margin-right: 5%;
-    margin-left: 30%;
-    margin-top: 1%;
-    max-width: 11%;
-}
-
 .bold {
     font-size: larger;
     font-weight: bold;
 }
 
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table , td {
+    border-collapse: collapse;
+    border: solid 1px black;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+td {
+    padding: 5px;
+}
+
+caption {
+    padding-bottom: 20px;
+}
+
+
+#instructor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
+    gap: 20px;
+}
+
+.instructor-pic {
+    height: 170px;
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+}
+
+figcaption {
+    padding-top: 5px;
+}

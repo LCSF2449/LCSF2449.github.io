@@ -54,9 +54,11 @@ nav li a {
 }
 
 main {
-    display: block;
-    border-radius: 0%;
-    text-shadow: 0px 0px 5px #66CCFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #9bc7e8;
 }
 
 #container {
@@ -108,5 +110,47 @@ footer {
 .bold {
     font-size: larger;
     font-weight: bold;
+}
+
+section {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-top: 2%;
+    padding-right: 150px;
+}
+
+article {
+    margin-bottom: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.employee-photo {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
