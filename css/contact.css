@@ -97,11 +97,6 @@ fieldset {
     border: none;
 }
 
-.label {
-    padding-left: 200px;
-    padding-right: 20px;
-}
-
 #name {
     margin-left: 3px;
 }
@@ -118,16 +113,14 @@ fieldset {
     margin-left: 39px;
 }
 
-#returning {
-    margin-left: 200px;    
-}
-
-#message {
-    margin-left: 200px;
+#auto-center {
+    text-align: center;
 }
 
 .btn {
-    margin-left: 200px;
-    margin-right: 102px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: rgb(255, 92, 92);
 }

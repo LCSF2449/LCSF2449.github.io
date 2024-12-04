@@ -57,6 +57,7 @@ main {
     display: block;
     border-radius: 0%;
     text-shadow: 0px 0px 5px #66CCFF;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 #container {
@@ -102,7 +103,7 @@ footer {
     margin-right: 5%;
     margin-left: 30%;
     margin-top: 1%;
-    max-width: 11%;
+    max-width: 10%;
 }
 
 .bold {
@@ -110,3 +111,6 @@ footer {
     font-weight: bold;
 }
 
+.remove_shadow {
+    text-shadow: none;
+}
